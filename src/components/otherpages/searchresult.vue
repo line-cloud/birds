@@ -18,7 +18,7 @@
 			 	  	   <p class="sh_Newstext pt_fontSizeOne">2017年丝绸之路国际汽车拉力赛18日迎来第十赛段、同时也是中国境内第三赛段的比拼，两驱竞技车队的阿莫斯拿下汽车组赛段冠军MINI车队双雄阿拉吉、孟席斯分获亚军、季军....</p>
 			 	  	   <div style="clear:both"></div>
 			 	  </div>
-                  <div class="sh_Newsinfor pt_fontSizeOne">新华网体育  2017-07-19 08:15:21  13.3万浏览量  401条评价</div>
+                  <div class="sh_Newsinfor">新华网体育&nbsp;&nbsp;  2017-07-19&nbsp;&nbsp; 08:15:21 &nbsp;&nbsp; 13.3万浏览量&nbsp;&nbsp;  401条评价</div>
 			    </div>
 			    <div class="sh_newscontent">
 			 	  <p class="sh_searnewst pt_fontSizeThree">丝绸之路国际汽车拉力赛：阿莫斯首夺赛啊段阿莫斯首夺赛啊段</p>
@@ -27,7 +27,7 @@
 			 	  	   <p class="sh_Newstext pt_fontSizeOne">2017年丝绸之路国际汽车拉力赛18日迎来第十赛段、同时也是中国境内第三赛段的比拼，两驱竞技车队的阿莫斯拿下汽车组赛段冠军MINI车队双雄阿拉吉、孟席斯分获亚军、季军....</p>
 			 	  	   <div style="clear:both"></div>
 			 	  </div>
-                  <div class="sh_Newsinfor pt_fontSizeOne">新华网体育  2017-07-19 08:15:21  13.3万浏览量  401条评价</div>
+                  <div class="sh_Newsinfor">新华网体育&nbsp;&nbsp;  2017-07-19&nbsp;&nbsp; 08:15:21 &nbsp;&nbsp; 13.3万浏览量&nbsp;&nbsp;  401条评价</div>
 			    </div>
 			    <div class="sh_newscontent">
 			 	  <p class="sh_searnewst pt_fontSizeThree">丝绸之路国际汽车拉力赛：阿莫斯首夺赛啊段阿莫斯首夺赛啊段</p>
@@ -36,7 +36,7 @@
 			 	  	   <p class="sh_Newstext pt_fontSizeOne">2017年丝绸之路国际汽车拉力赛18日迎来第十赛段、同时也是中国境内第三赛段的比拼，两驱竞技车队的阿莫斯拿下汽车组赛段冠军MINI车队双雄阿拉吉、孟席斯分获亚军、季军....</p>
 			 	  	   <div style="clear:both"></div>
 			 	  </div>
-                  <div class="sh_Newsinfor pt_fontSizeOne">新华网体育  2017-07-19 08:15:21  13.3万浏览量  401条评价</div>
+                  <div class="sh_Newsinfor">新华网体育&nbsp;&nbsp;  2017-07-19&nbsp;&nbsp; 08:15:21 &nbsp;&nbsp; 13.3万浏览量&nbsp;&nbsp;  401条评价</div>
 			    </div>
 			 </div>
 		</div>
@@ -122,8 +122,7 @@
          letter-spacing: 0;
          line-height:0.15rem;
          width: 3.35rem;
-         /*margin: 0.1rem auto;*/
+         font-size: 10px;
          margin: 0 auto;
-         /*padding-bottom: 0.1rem;*/
 	}
 </style>

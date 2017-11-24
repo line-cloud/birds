@@ -7,16 +7,16 @@
 	  	   <div class="so_Specialcon" v-for="item in specialdata">
 	  	   	    <div class="so_Specialbgdiv">
 	  	   	    	 <img src="../../assets/image/specialbg.jpg" class="so_Specialbg">
-	  	   	    	 <span class="so_Timedate pt_fontSizeOne">2017-12-21</span>
+	  	   	    	 <span class="so_Timedate">2017-12-21</span>
 	  	   	    </div>
 	  	   	    <div>
 	  	   	    	<p class="so_Ptitle pt_fontSizeTwo">我和一群扛着红旗的社会主义分子，与3K党街头</p>
 	  	   	    </div>
 	  	   	    <div class="so_Specialnews">
 	  	   	    	 <i class="so_Lookeye"></i>
-	  	   	    	 <span class="so_Lookeyemount pt_fontSizeOne">14400</span>
+	  	   	    	 <span class="so_Lookeyemount">14400</span>
 	  	   	    	 <i class="so_Share"></i>
-	  	   	    	 <span class="so_Sharemount pt_fontSizeOne">14400</span>
+	  	   	    	 <span class="so_Sharemount">14400</span>
 	  	   	    </div>
 	  	   </div>
 	  </div>
@@ -66,6 +66,7 @@
          border-radius: 100px;
          text-align: center;
          line-height: 0.15rem;
+         font-size: 9px;
 	}
 	.so_Specialbgdiv{
 		 position: relative;
@@ -95,18 +96,21 @@
 		 height: 0.13rem;
 		 background: url('../../assets/image/comments.png') no-repeat;
 		 background-size: cover;
+		 margin-left: 0.08rem;
 	}
 	.so_Lookeyemount{
          color: #9B9B9B;
 		 vertical-align: top;
          position: relative;
          top: -0.01rem;
+         font-size: 10px;
 	}
 	.so_Sharemount{
         color: #9B9B9B;
         vertical-align: top;
          position: relative;
          top: -0.01rem;
+         font-size: 10px;
 	}
 	.so_Specialnews{
 		 height: 0.14rem;

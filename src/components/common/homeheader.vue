@@ -33,7 +33,7 @@
            <!-- <div class="sh_Rectangdiv">
                 <img src="../../assets/image/rectangle.png" class="sh_Rectangle">
            </div> -->
-           <div class="sh_Point" @click="showpopups">...</div>
+           <div class="sh_Point" @click="showpopups">···</div>
       </div>
          <router-view></router-view>
 	 </div>

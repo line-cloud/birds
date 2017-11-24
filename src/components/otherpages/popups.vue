@@ -15,12 +15,12 @@
 	 	 <!-- 多种频道之新闻 -->
 	 	 <div class="ps_ChannelALL">
 	 	      <div class="ps_Channel pt_fontSizeFour">新闻频道</div>
-	 	 	  <span class="ps_Channeltion pt_fontSizeTwo">首页</span>
+	 	 	  <span class="ps_Channeltion pt_fontSizeTwo" @click="backindex">首页</span>
 	 	 	  <span class="ps_Channeltion pt_fontSizeTwo">新地标</span>
 	 	 	  <span class="ps_Channeltion pt_fontSizeTwo">读政策</span>
 	 	 	  <span class="ps_Channeltion pt_fontSizeTwo">变奏曲</span>
 	 	 	  <span class="ps_Channeltion pt_fontSizeTwo">看未来</span>
-	 	 	  <span class="ps_Channeltion pt_fontSizeTwo">全资讯</span>
+	 	 	  <span class="ps_Channeltion pt_fontSizeTwo" @click="newdi">全资讯</span>
 	 	 	  <div style="clear:both"></div>
 	 	 </div>
 	 	  <!-- 多种频道之城市-->
@@ -60,6 +60,12 @@
 			},
 			shutdown:function(){
 				this.$router.push('/home')
+			},
+			backindex:function(){
+				this.$router.push('/home')
+			},
+			newdi:function(){
+				this.$router.push('/column/columntravel')
 			}
 		}
 	}

@@ -48,8 +48,8 @@
 	}
 	.ct_Comment{
 		text-align: center;
-		height: 0.14rem;
-		line-height: 0.14rem;
+		height: 0.08rem;
+		line-height: 0.08rem;
 		margin-top: 0.22rem;
 	}
 	.ct_Number{
@@ -57,11 +57,17 @@
         letter-spacing: 0.07px;
         margin-right: 0.1rem;
         display: inline-block;
+        vertical-align: top;
+        font-size: 8px;
+        /*height: 0.08rem;*/
+        /*line-height: 0.08rem;*/
 	}
 	.ct_Sharenumbers{
 		 color: #FFFFFF;
         letter-spacing: 0.07px;
         display: inline-block;
+        vertical-align: top;
+        font-size: 8px;
 	}
 	.ct_Eyemount{
 		display: inline-block;

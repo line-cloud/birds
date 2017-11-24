@@ -59,11 +59,13 @@ import homeheader from '../common/homeheader'
          display: inline-block;
          margin-right: 0.1rem;
          margin-left: 0.2rem;
+         font-size: 10px;
 	}
 	.gy_Picnum{
 		color: #FFFFFF;
         letter-spacing: 0;
         display: inline-block;
+        font-size: 10px;
 	}
 	.gy_CwhiteLogo{
 		width: 0.78rem;
