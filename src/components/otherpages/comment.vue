@@ -3,7 +3,7 @@
 	<div id="comment">
 	        <!-- 评论头部 -->
 		  <div class="pt_fontSizeTwo rh_Backchediv">
-		 	 <img src="../../assets/image/share.png" class="rh_Backchevron">
+		 	 <img src="../../assets/image/share.png" class="rh_Backchevron" @click="indexjump">
 		 	  <span class="ct_Comment pt_fontSizeThree">评论</span>
 			 <img src="../../assets/image/shutdown.png" class="rh_More">
 			 <div style="clear:both"></div>
@@ -69,6 +69,15 @@
 		 </div>
 	</div>
 </template>
+<script type="text/javascript">
+	export default{
+		methods:{
+			indexjump:function(){
+				this.$router.go(-1)
+			}
+		}
+	}
+</script>
 <style scoped>
 /*评论头部*/
 	.rh_Backchediv{

@@ -140,6 +140,10 @@ a:hover{}
      .sh_Navli:nth-child(1){
         margin-left: 0.2rem;
      }
+     .sh_Navlis{
+         width: 0.4rem; 
+         height: 0.2rem;
+      }
      .sh_Rectangdiv{
          width: 0.34rem;
          position: absolute;

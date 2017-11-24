@@ -52,6 +52,11 @@ export default new Router({
           name: 'home',
           component: columntravel,
           },
+          {
+          path: '/column/columnUniversal',
+          name: 'columnUniversal',
+          component: columnUniversal,
+          },
       ]
     },
     // 专题总览

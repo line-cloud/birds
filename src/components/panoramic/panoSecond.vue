@@ -8,28 +8,24 @@
 		</div>
 		<!-- 全景组件 -->
         <div class="ps_Panodiv">
-             <div class="ps_Panocontain" v-for="item in panodata">
-             <div class="ps_Specimgdiv">
-			 	  <img src="../../assets/image/specimg.jpg" class="ps_Specimg">
-			 	  <span class="ps_Evelook">
-			 	  	    <i class="ps_Eyeicon"></i>
-			 	  	    <span class="ps_Evemount">16.7w</span>
-			 	  </span>
-			 </div>
-			 <div class="ps_Panotitle">
-			 	  <p class="ps_Panotext">英国王室出访波兰 小王子娇羞样惹人爱波兰 小王子娇羞样</p>
-			 	  <div class="ps_Boardinfo">
-			 	  	  <span class="ps_Boardorgin">新闻板块-变奏曲</span>
-			 	  	  <span class="ps_Datetime">2017-12-21</span>
-			 	  	  <div style="clear:both"></div>
-			 	  </div>
-			 </div>
-             </div>
-			 <div style="clear:both"></div>
+           <div class="ps_Panocontain" v-for="item in panodata">
+	             <div class="ps_Specimgdiv">
+				 	  <img src="../../assets/image/specimg.jpg" class="ps_Specimg">
+				 	  <span class="ps_Evelook">
+				 	  	    <i class="ps_Eyeicon"></i>
+				 	  	    <span class="ps_Evemount">16.7w</span>
+				 	  </span>
+				 </div>
+				 <div class="ps_Panotitle">
+				 	  <p class="ps_Panotext">英国王室出访波兰 小王子娇羞样惹人爱波兰 小王子娇羞样</p>
+				 	  <div class="ps_Boardinfo">
+				 	  	  <span class="ps_Boardorgin">新闻板块-变奏曲</span>
+				 	  	  <span class="ps_Datetime">2017-12-21</span>
+				 	  	  <div style="clear:both"></div>
+				 	  </div>
+				 </div>
+           </div>
 		</div>
-		<!-- <ul class="page-loadmore-list pt_fontSizeTwo">
-          <li v-for="item in list" class="page-loadmore-listitem">{{ item }}</li>
-        </ul> -->
        <div slot="top" class="mint-loadmore-top pt_fontSizeTwo">
         <span v-show="topStatus !== 'loading'" :class="{ 'is-rotate': topStatus === 'drop' }">↓</span>
           <span v-show="topStatus === 'loading'">刷新中
@@ -53,7 +49,7 @@
        },
        data(){
        	  return{
-       	  	list:[1,2,4,5,6,7,8,9,1,11,2,4,5,6,7,8,9,1,1],
+       	  	list:[1,2,4,5,6,7,8,9],
        	  	panodata:[
                   {
 
@@ -106,7 +102,7 @@
         this.moveTranslate = (1 + translateNum / 70).toFixed(2);
       },
       loadTop() {
-        setTimeout(() => {
+           setTimeout(() => {
         // this.$router.go(0)
           this.$refs.loadmore.onTopLoaded();
         }, 1500);
@@ -114,7 +110,6 @@
 },
     mounted() {
         this.wrapperHeight = document.documentElement.clientHeight - this.$refs.wrapper.getBoundingClientRect().top;
-        // alert(this.wrapperHeight)
         }
 	}
 </script>
@@ -135,6 +130,7 @@
 	}
 	.ps_Specimgdiv{
 		position: relative;  
+		
 	}
 	.ps_Evelook{
 		position: absolute;

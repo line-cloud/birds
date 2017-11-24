@@ -1,6 +1,6 @@
 <template>
-   <div id="home">
-     <div>
+	 <div id="home">
+	 	 <div>
               <!-- 首页头部 -->
              <!-- <homeheader></homeheader>  -->
         </div>
@@ -40,7 +40,7 @@
              <!-- <horGraphic></horGraphic>
              <horGraphic></horGraphic> -->
         <!-- </div> -->
-   </div>
+	 </div>
 </template>
 <script type="text/javascript">
 import homeheader from '../common/homeheader'
@@ -49,7 +49,7 @@ import vertical from '../common/speverticalGraphic'
 import panoramic from '../common/spepanoramic'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
-  document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px';
+	document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px';
   export default{
       name:'home',
       components:{

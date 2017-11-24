@@ -26,7 +26,7 @@ import  returnh from '../common/returnheader'
 		},
         methods:{
             comment:function(){
-                this.$router.replace('/otherpages/comment')
+                this.$router.push('/otherpages/comment')
             }
         }
 	}
