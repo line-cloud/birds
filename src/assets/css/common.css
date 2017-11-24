@@ -110,9 +110,7 @@ a:hover{}
          display: inline-block;
          width: 0.14rem;
          height: 0.14rem;
-         background: url('../../assets/image/search.png') no-repeat;
          position: absolute;
-         background-size: cover;
          top: 0.06rem;
          left: 0.1rem;
          z-index: 10;
