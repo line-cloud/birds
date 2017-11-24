@@ -1,6 +1,6 @@
 <template>
-	 <div id="home">
-	 	 <div>
+   <div id="home">
+     <div>
               <!-- 首页头部 -->
              <!-- <homeheader></homeheader>  -->
         </div>
@@ -25,12 +25,6 @@
                  </li>
              </ul>
         </div>
-            <div class="assetscon">
-                <img src="../../assets/image/specialOne.png" class="assetsimg">
-                <img src="../../assets/image/specialOne.png" class="assetsimg">
-                <img src="../../assets/image/specialOne.png" class="assetsimg">
-                <img src="../../assets/image/specialOne.png" class="assetsimg">
-            </div>
         <div>
              <!-- 专题左右图文 -->  
              <horGraphic></horGraphic>
@@ -46,7 +40,7 @@
              <!-- <horGraphic></horGraphic>
              <horGraphic></horGraphic> -->
         <!-- </div> -->
-	 </div>
+   </div>
 </template>
 <script type="text/javascript">
 import homeheader from '../common/homeheader'
@@ -55,7 +49,7 @@ import vertical from '../common/speverticalGraphic'
 import panoramic from '../common/spepanoramic'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 
-	document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px';
+  document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px';
   export default{
       name:'home',
       components:{
@@ -113,20 +107,7 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
   }
 </script>
 <style scoped>
-.assetsimg{
-    width: 1.1rem;
-    margin-right: 0.05rem;
- }
- .assetscon{
-    /*width: 100%;*/
-    white-space: nowrap;
-    font-size: 0;
-    overflow-x: scroll;
- }
- .zxc{
-     overflow-x: hidden;
- }
- .assetscon::-webkit-scrollbar {
+ .he_Specialul::-webkit-scrollbar {
     display: none;
 }
     #home{
@@ -146,9 +127,10 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
     }
     .he_Specialul{
         font-size: 0;
-        width: 4.95rem;
-        position: absolute;
         margin-top: 0.1rem;
+         white-space: nowrap;
+        font-size: 0;
+        overflow-x: scroll;
     }
     .he_Specialli:nth-child(1){
          margin-left: 0.1rem;
