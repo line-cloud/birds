@@ -3,7 +3,7 @@
 	 <div id="homeheader">
 	 	 <div class="sh_Header pt_fontSizeTwo">
       	   <img src="../../assets/image/whiteLogo.png" class="sh_Headerlogo"><span class="sh_Searchp">
-      	     <i class="sh_Hicon"></i>
+      	    <img class="sh_Hicon" src="../../assets/image/search.png">
              <input type="text" name="" placeholder="搜索你想要的" class="sh_Search pt_fontSizeOne" @click="searchresult">
            </span>
       </div>
