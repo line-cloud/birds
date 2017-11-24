@@ -127,7 +127,6 @@
 	.ps_Panocontain{
 		display: inline-block;
 		margin:0.1rem 0 0 0.1rem;
-		float: left; 
 	}
 	.ps_Specimg{
        width: 1.73rem;
